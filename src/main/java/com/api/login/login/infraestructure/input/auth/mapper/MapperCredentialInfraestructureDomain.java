@@ -16,7 +16,7 @@ public class MapperCredentialInfraestructureDomain {
      * @param credential objeto a mapear
      * @return objeto mapeado
      */
-    CredentialDTOResponse mapModelToResponse(Credential credential) {
+    public CredentialDTOResponse mapModelToResponse(Credential credential) {
         return CredentialDTOResponse.builder()
                 .token(credential.getToken())
                 .user(credential.getUser())

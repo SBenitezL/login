@@ -19,7 +19,7 @@ public interface ManageAuthGatewayIntPort {
      *         {@code Optional.empty()}
      *         en caso de que no se haya encontrado.
      */
-    public Optional<User> findUserByUsername(String username);
+    public Optional<User> findByUsername(String username);
 
     /**
      * Método que permite verificar si un usuario existe en la base de datos
